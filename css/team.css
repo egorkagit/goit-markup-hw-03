@@ -1,0 +1,31 @@
+.section-team {
+   background-color: #F4F4FD;
+}
+
+.section-team ul li {
+   background-color: white;
+}
+
+.section-team ul li p,
+.section-team ul li h3 {
+   text-align: center;
+}
+
+.section-team ul li h3 {
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+
+.section-team .text-two {
+   letter-spacing: 0.02em;
+   line-height: 1.11;
+   text-align: center;
+   color: #2e2f42;
+   font-size: 36px;
+}
+
+.section-team .text-three {
+   font-size: 20px;
+   font-weight: 500;
+}

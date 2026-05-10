@@ -1,0 +1,26 @@
+.section-hero {
+   background-color: #2E2F42;
+   line-height: 1.07;
+}
+
+.btn-hero {
+   background-color: #4D5AE5;
+   color: white;
+   font-family: "Roboto", Helvetica, sans-serif;
+   font-weight: 500;
+   letter-spacing: 0.04em;
+   cursor: pointer;
+   line-height: 1.5;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+   background-color: #404BBF;
+}
+
+.main-text-hero {
+   font-size: 56px;
+   color: white;
+   text-align: center;
+   letter-spacing: 0.02em;
+}
