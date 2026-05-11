@@ -1,8 +1,22 @@
 .footer {
+   margin-top: 120px;
    background-color: #2E2F42;
+   color: #F4F4FD;
+   display: flex;
+}
+
+.logo .studio {
    color: #F4F4FD;
 }
 
-.studio {
-   color: #F4F4FD;
+.footer a {
+   display: inline-block;
+   margin-top: 100px;
+   margin-bottom: 16px;
+}
+
+.footer p {
+   width: 264px;
+   margin: 0px;
+   margin-bottom: 100px;
 }

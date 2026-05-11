@@ -13,3 +13,18 @@
    text-align: center;
    color: #2E2F42;
 }
+
+.section-features .container {
+   display: flex;
+   justify-content: center;
+}
+
+.section-features .container ul {
+   display: flex;
+   margin: 84px 0;
+}
+
+.section-features li {
+   margin: 0 24px;
+   max-width: 264px;
+}

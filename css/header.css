@@ -32,3 +32,20 @@
    color: #434455;
    font-style: normal;
 }
+
+.header .container {
+   display: flex;
+   align-items: center;
+}
+
+.header ul {
+   display: flex;
+}
+
+.address {
+   margin-left: auto;
+}
+
+.header .link {
+   margin: 20px;
+}

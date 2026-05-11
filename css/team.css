@@ -1,5 +1,7 @@
 .section-team {
    background-color: #F4F4FD;
+   display: flex;
+   flex-direction: column;
 }
 
 .section-team ul li {
@@ -17,6 +19,22 @@
    color: #2e2f42;
 }
 
+.section-team ul {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 120px;
+}
+
+.section-team li {
+   justify-content: center;
+   width: 264px;
+   margin: 0 12px;
+}
+
+.section-team li p {
+   margin-bottom: 24px;
+}
+
 .section-team .text-two {
    letter-spacing: 0.02em;
    line-height: 1.11;
@@ -28,4 +46,9 @@
 .section-team .text-three {
    font-size: 20px;
    font-weight: 500;
+}
+
+.text-two {
+   margin-top: 120px;
+   margin-bottom: 72px;
 }

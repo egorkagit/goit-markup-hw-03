@@ -9,6 +9,9 @@
 
 .section-portfolio p {
    letter-spacing: 0.02em;
+   margin-left: 16px;
+   margin-top: 0px;
+
 }
 
 .section-portfolio .text-three {
@@ -16,4 +19,21 @@
    line-height: 1.2;
    font-size: 20px;
    font-weight: 500;
+   margin-left: 16px;
+   margin-bottom: 8px;
+}
+
+.section-portfolio .container ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.section-portfolio .container li {
+   margin: 0 24px;
+   border: #E7E9FC 1px solid;
+}
+
+.section-portfolio .container li:nth-child(-n + 3) {
+   margin-bottom: 48px;
 }
