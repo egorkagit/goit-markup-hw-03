@@ -25,7 +25,7 @@
                <li><a class="nav-links link" href="#portfolio">Portfolio</a></li>
             </ul>
          </nav>
-         <address>
+         <address class="address">
             <ul>
                <li><a class="adress-links link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                <li><a class="adress-links link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
@@ -35,12 +35,15 @@
    </header>
    <main>
       <section class="section-hero" id="hero">
-         <h1 class="main-text-hero">Effective Solutions <br>for Your Business</h1>
-         <button class="btn-hero" type="button">Order Service</button>
+         <div class="container">
+            <h1 class="main-text-hero">Effective Solutions <br>for Your Business</h1>
+            <button class="btn-hero" type="button">Order Service</button>
+         </div>
       </section>
       <section class="section-features" id="features">
-         <h2 class="text-two sr-only">Our features</h2>
          <div class="container">
+            <h2 class="text-two sr-only">Our features</h2>
+
             <ul>
                <li>
                   <h3 class="text-three">Strategy</h3>
@@ -70,55 +73,76 @@
          </div>
       </section>
       <section class="section-team" id="team">
-         <h2 class="text-two">Our Team</h2>
          <div class="container">
+            <h2 class="text-two">Our Team</h2>
+
             <ul>
                <li><img height="260" width="264" src="./images/team-1.jpg" alt="Product Designer">
-                  <h3 class="text-three">Mark Guerrero</h3>
-                  <p>Product Designer</p>
+                  <div class="card-content">
+                     <h3 class="text-three">Mark Guerrero</h3>
+                     <p>Product Designer</p>
+                  </div>
                </li>
                <li><img height="260" width="264" src="./images/team-2.jpg" alt="Frontend Developer">
-                  <h3 class="text-three">Tom Ford</h3>
-                  <p>Frontend Developer</p>
+                  <div class="card-content">
+                     <h3 class="text-three">Tom Ford</h3>
+                     <p>Frontend Developer</p>
+                  </div>
                </li>
                <li><img height="260" width="264" src="./images/team-3.jpg" alt="Marketing">
-                  <h3 class="text-three">Camila Garcia</h3>
-                  <p>Marketing</p>
+                  <div class="card-content">
+                     <h3 class="text-three">Camila Garcia</h3>
+                     <p>Marketing</p>
+                  </div>
                </li>
                <li><img height="260" width="264" src="./images/team-4.jpg" alt="UI Designer">
-                  <h3 class="text-three">Daniel Wilson</h3>
-                  <p>UI Designer</p>
+                  <div class="card-content">
+                     <h3 class="text-three">Daniel Wilson</h3>
+                     <p>UI Designer</p>
+                  </div>
                </li>
             </ul>
          </div>
       </section>
       <section class="section-portfolio" id="portfolio">
-         <h2 class="text-two">Our Portfolio</h2>
          <div class="container">
-            <ul>
+            <h2 class="text-two">Our Portfolio</h2>
+            <ul class="card-list">
                <li><img width="360" src="./images/Media.jpg" alt="App">
-                  <h3 class="text-three">Banking App</h3>
-                  <p>App</p>
+                  <div class="card-section">
+                     <h3 class="text-three">Banking App</h3>
+                     <p>App</p>
+                  </div>
                </li>
                <li><img width="360" src="./images/portfolio.jpg" alt="Marketing">
-                  <h3 class="text-three">Cashless Payment</h3>
-                  <p>Marketing</p>
+                  <div class="card-section">
+                     <h3 class="text-three">Cashless Payment</h3>
+                     <p>Marketing</p>
+                  </div>
                </li>
                <li><img width="360" src="./images/portfolio-1.jpg" alt="App">
-                  <h3 class="text-three">Meditation App</h3>
-                  <p>App</p>
+                  <div class="card-section">
+                     <h3 class="text-three">Meditation App</h3>
+                     <p>App</p>
+                  </div>
                </li>
                <li><img width="360" src="./images/portfolio-2.jpg" alt="Marketing">
-                  <h3 class="text-three">Taxi Service</h3>
-                  <p>Marketing</p>
+                  <div class="card-section">
+                     <h3 class="text-three">Taxi Service</h3>
+                     <p>Marketing</p>
+                  </div>
                </li>
                <li><img width="360" src="./images/portfolio-3.jpg" alt="Design">
-                  <h3 class="text-three">Screen Illustrations</h3>
-                  <p>Design</p>
+                  <div class="card-section">
+                     <h3 class="text-three">Screen Illustrations</h3>
+                     <p>Design</p>
+                  </div>
                </li>
                <li><img width="360" src="./images/portfolio-4.jpg" alt="Marketing">
-                  <h3 class="text-three">Online Courses</h3>
-                  <p>Marketing</p>
+                  <div class="card-section">
+                     <h3 class="text-three">Online Courses</h3>
+                     <p>Marketing</p>
+                  </div>
                </li>
             </ul>
          </div>
@@ -127,7 +151,7 @@
    <footer class="footer" id="footer">
       <div class="container">
          <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-         <p>
+         <p class="footer-content">
             Increase the flow of customers and <br>sales for your business with digital <br>marketing & growth
             solutions.</p>
       </div>

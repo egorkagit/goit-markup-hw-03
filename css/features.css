@@ -6,6 +6,7 @@
 .text-three {
    font-size: 20px;
    font-weight: 500;
+   margin-bottom: 8px;
 }
 
 .text-two {
@@ -16,6 +17,7 @@
 
 .section-features ul {
    display: flex;
+   gap: 24px;
 }
 
 .section-features {
@@ -23,7 +25,7 @@
 }
 
 .section-features ul li {
-   margin: 0px 12px;
+   flex-basis: 264px;
 }
 
 .section-features ul li:first-child {

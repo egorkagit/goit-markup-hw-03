@@ -9,6 +9,7 @@
    margin: 0px;
 }
 
-.footer p {
+.footer .footer-content {
    margin-top: 16px;
+   width: 264px;
 }
