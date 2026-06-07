@@ -7,7 +7,7 @@
    background-color: white;
    width: 264px;
    border: 1px solid #E7E9FC;
-   margin: 0 12px;
+
    border-radius: 0 0 4px 4px;
 }
 
@@ -40,26 +40,18 @@
    display: flex;
    justify-content: center;
    margin-top: 72px;
+   gap: 24px;
 }
 
-
-
-.section-team:first-child {
-   margin-left: 0;
-}
-
-.section-team:last-child {
-   margin-right: 0;
-}
 
 .section-team p {
    margin-top: 8px;
 }
 
-.card-content img {
+.section-team img {
    display: block;
 }
 
 .card-content {
-   padding: 32px;
+   padding: 32px 16px;
 }

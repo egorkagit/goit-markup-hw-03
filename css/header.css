@@ -27,9 +27,6 @@
    text-decoration: underline;
 }
 
-nav ul li:nth-child(2) {
-   margin: 0 40px;
-}
 
 .link:hover,
 .link:active,
@@ -51,15 +48,13 @@ nav ul li:nth-child(2) {
 .header ul {
    display: flex;
    align-items: center;
+   gap: 40px;
 }
 
 .address {
    margin-left: auto
 }
 
-.adress-links:nth-child(1) {
-   margin-right: 40px;
-}
 
 .header {
    border-bottom: 1px solid #E7E9FC;
