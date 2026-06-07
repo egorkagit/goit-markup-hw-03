@@ -1,0 +1,31 @@
+.section-features .text-three {
+   color: #2e2f42;
+   line-height: 1.2;
+}
+
+.text-three {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.text-two {
+   font-size: 36px;
+   text-align: center;
+   color: #2E2F42;
+}
+
+.section-features ul {
+   display: flex;
+}
+
+.section-features {
+   padding: 120px 0px;
+}
+
+.section-features ul li {
+   margin: 0px 12px;
+}
+
+.section-features ul li:first-child {
+   margin-left: 0;
+}
